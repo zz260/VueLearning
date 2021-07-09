@@ -1,0 +1,8 @@
+
+NWeb:TableWithoutCaptionCheck" Add a description to this table.(°æÆ;8¼§Ü·¥/
+D	Web:S1827")Remove this deprecated "width" attribute.(°æÆ;8 î·¥/
+F	Web:S1827"+Remove this deprecated "bgcolor" attribute.(°æÆ;8ÆÄ’¸¥/
+s Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(Š´ÍÆşÿÿÿÿ8À„˜¸¥/
+n Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(»æòÂ8¨©¸¥/
+y%Web:ItemTagNotWithinContainerTagCheck"<Surround this <li> item tag by a <ul> or <ol> container one.(×ÏËØşÿÿÿÿ8±ç¶¸¥/
+SWeb:ImgWithoutAltCheck"%Add an "alt" attribute to this image.(ïäÀúûÿÿÿÿ8ùÍ˜½¥/

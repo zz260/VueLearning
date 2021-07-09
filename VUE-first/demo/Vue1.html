@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baidu</title>
+
+</head>
+<body>
+<!--  view层模板  -->
+<div id="app">
+    <table border="1" width="20" bgcolor="aqua">
+       <tr>
+           <th v-bind:title="message1">{{message2}}</th>
+           <th>{{message1}}</th>
+
+       </tr>
+    </table>
+    <li v-bind:title="message1">baidu</li>
+    <h1>
+        {{message3}}
+    </h1>
+    <a href="www.kuangstudy.com" download=""> hhh</a>
+    <img src="https://tool.lu/netcard/">
+
+</div>
+
+<!--  导入vue.js  -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+<script>
+    var ve=new Vue({
+        el:"#app",
+        //Model  数据
+        data:{
+            message1:"hello,worid",
+            message2:"zfc",
+            message3:"try"
+        }
+    });
+</script>
+
+
+
+</body>
+</html>
